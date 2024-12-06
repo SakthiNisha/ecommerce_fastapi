@@ -1,0 +1,6 @@
+env setup:
+python -m venv ecommerce_env
+ecommerce_env\Scripts\activate
+
+run the app:
+uvicorn app.main:app --reload
